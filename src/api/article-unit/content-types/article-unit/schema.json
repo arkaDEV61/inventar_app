@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_units",
+  "info": {
+    "singularName": "article-unit",
+    "pluralName": "article-units",
+    "displayName": "Article Unit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article",
+      "mappedBy": "article_unit"
+    },
+    "acronim": {
+      "type": "string"
+    }
+  }
+}

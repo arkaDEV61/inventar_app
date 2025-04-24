@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "logs",
+  "info": {
+    "singularName": "log",
+    "pluralName": "logs",
+    "displayName": "Log",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "article_id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "data": {
+      "type": "json"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "month": {
+      "type": "integer"
+    }
+  }
+}
