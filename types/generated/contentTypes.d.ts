@@ -491,6 +491,7 @@ export interface ApiClientClient extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     email: Schema.Attribute.String;
+    id_number: Schema.Attribute.String;
     invoices: Schema.Attribute.Relation<'oneToMany', 'api::invoice.invoice'>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -498,6 +499,7 @@ export interface ApiClientClient extends Struct.CollectionTypeSchema {
       'api::client.client'
     > &
       Schema.Attribute.Private;
+    pdv_number: Schema.Attribute.String;
     phone: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     title: Schema.Attribute.String;

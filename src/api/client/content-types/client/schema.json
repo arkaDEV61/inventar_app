@@ -28,6 +28,12 @@
     },
     "email": {
       "type": "string"
+    },
+    "pdv_number": {
+      "type": "string"
+    },
+    "id_number": {
+      "type": "string"
     }
   }
 }
