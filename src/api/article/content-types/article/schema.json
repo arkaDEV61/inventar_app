@@ -47,6 +47,9 @@
     },
     "difference": {
       "type": "decimal"
+    },
+    "threshold": {
+      "type": "decimal"
     }
   }
 }

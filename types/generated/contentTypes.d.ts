@@ -431,6 +431,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    threshold: Schema.Attribute.Decimal;
     title: Schema.Attribute.String;
     updated_by_user: Schema.Attribute.Relation<
       'manyToOne',
