@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_report_article_report_articles",
+  "info": {
+    "displayName": "Report Article"
+  },
+  "options": {},
+  "attributes": {
+    "article_title": {
+      "type": "string"
+    },
+    "article_amount": {
+      "type": "string"
+    },
+    "article_update_date": {
+      "type": "string"
+    },
+    "article_updated_by_name": {
+      "type": "string"
+    },
+    "article_threshold": {
+      "type": "string"
+    }
+  }
+}

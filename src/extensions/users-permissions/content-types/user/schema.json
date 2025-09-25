@@ -76,6 +76,12 @@
       "relation": "oneToMany",
       "target": "api::article.article",
       "mappedBy": "updated_by_user"
+    },
+    "reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::report.report",
+      "mappedBy": "updated_by_user"
     }
   }
 }
