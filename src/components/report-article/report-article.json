@@ -1,7 +1,8 @@
 {
   "collectionName": "components_report_article_report_articles",
   "info": {
-    "displayName": "Report Article"
+    "displayName": "Report Article",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,6 +19,9 @@
       "type": "string"
     },
     "article_threshold": {
+      "type": "string"
+    },
+    "article_unit_acronim": {
       "type": "string"
     }
   }
